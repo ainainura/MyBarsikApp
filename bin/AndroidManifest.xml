@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nu.edu.kz"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="nu.edu.kz.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             <activity
+            android:name="nu.edu.kz.PetActivity"
+            android:label="@string/title_activity_pet"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.SportsActivity"
+            android:label="@string/title_activity_sports"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.WalkingActivity"
+            android:label="@string/title_activity_walking"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.RunActivity"
+            android:label="@string/title_activity_run"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.PushupsActivity"
+            android:label="@string/title_activity_pushups"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.ShakingActivity"
+            android:label="@string/title_activity_shaking"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.FeedActivity"
+            android:label="@string/title_activity_feed"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.StartActivity"
+            android:label="@string/title_activity_start"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.MainnActivity"
+            android:label="@string/title_activity_mainn"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        -->
+        <activity
+            android:name="nu.edu.kz.PetActivity"
+            android:label="@string/title_activity_pet"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.SportsActivity"
+            android:label="@string/title_activity_sports"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.WalkingActivity"
+            android:label="@string/title_activity_walking"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.RunActivity"
+            android:label="@string/title_activity_run"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.PushupsActivity"
+            android:label="@string/title_activity_pushups"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.ShakingActivity"
+            android:label="@string/title_activity_shaking"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.FeedActivity"
+            android:label="@string/title_activity_feed"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.StartActivity"
+            android:label="@string/title_activity_start"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="nu.edu.kz.MainnActivity"
+            android:label="@string/title_activity_mainn"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service
+            android:name="nu.edu.kz.RunningService"
+            android:enabled="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
